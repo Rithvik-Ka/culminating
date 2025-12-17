@@ -1,0 +1,3 @@
+i would probably try to decode it using keys 1 - 25 and count how many english words there are in each decoded
+version. Then I would show the test decoed with the key with the msot english words, which is goign to be the correct 
+answer as almost all words should be english (except names)
