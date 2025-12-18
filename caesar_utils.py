@@ -33,7 +33,8 @@ def get_key() -> int:
             var = int(input("Enter a key (integer) from 1-25: "))
         return var
     except ValueError:
-        print("Invalid input. Please enter an integer.")
+        print("Invalid input. Please enter an integer. Rerun the program.")
+        quit()
         return 99
 
 def encode(value, key):

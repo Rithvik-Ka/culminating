@@ -8,7 +8,7 @@ def letter_frequency(text: str) -> dict[str, int]:
         try:
             letters[char] += 1
         except:
-            letters[char] = 1
+            if char.isalpha(): letters[char] = 1
 
 
     #finding highest frequency
